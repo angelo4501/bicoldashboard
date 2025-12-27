@@ -37,8 +37,8 @@ interface UseGoogleSheetDataResult {
   data: AllProvincesData | null;
   loading: boolean;
   error: string | null;
-  lastUpdated: Date | null;
-  refresh: () => Promise<void>;
+  lastUpdated: Date | null;z
+  refresh: () => Promise<void>; 
 }
 
 function parseCSVLine(line: string): string[] {
